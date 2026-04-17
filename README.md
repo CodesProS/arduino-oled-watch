@@ -62,7 +62,7 @@ This project turns an Arduino Nano/Uno into a wearable watch interface. All inte
 
 **2. Wire the hardware** as shown above. Both the OLED and RTC share the I2C bus.
 
-**3. Upload** `Smart_Watch_15Nov.ino` to your board.
+**3. Upload** `main.ino` to your board.
 
 **4. Navigate** using the three buttons:
 - **Button A (pin 14)** — scroll up / increment
@@ -75,7 +75,7 @@ This project turns an Arduino Nano/Uno into a wearable watch interface. All inte
 ## Project structure
 
 arduino-oled-watch/
-└── Smart_Watch_15Nov.ino   # Full firmware — clock, menus, games, I/O
+└── main.ino   # Full firmware — clock, menus, games, I/O
 
 ## Why I built this
 
